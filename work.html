@@ -2,26 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
     <meta name="Letter Author: Dr. Terra Nova">
+    <title>Imari's INST377 Letter Format</title>
 </head>
+
 <body>
-<h1 class="RE line">RE: Dover Cliff university application</h1>
-<h2>
-    <div class="address">Faculty of Information<br>
+    <address class="sender-column">
+        <p>
+        <!-- Note - Address tags require a paragraph tag inside them -->
+        <strong>Dr. Terra Nova</strong>
+        Faculty of Information<br>
         University of Maryland<br>
         College Park, MD<br>
         20742<br>
-        USA
-    </div>
-    <div class="phone">Tel: 123-456-7890</div> 
-    <div class="email">Email: no_reply@example.com </div> 
-</h2>
-<p class="To"> Rev. Dover Cliff <br>
-    1861 Roses Way Glasgow, <br>
-    CT9 XXX <br>
-    UK</p>
-<p class="Class start"> Dear Dover, Thank you for your recent application to join us at UMD's iSchool to study for your undergraduate in 2020. I will answer your questions one by one, in the following sections. Starting dates We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows: Link meFirst semester: 29 August 2019 Second semester: 22 January 2020 Third semester: 2 May 2020 Please let me know if this is ok, and if so which start date you would prefer. You can find more information about important university dates on our website.</p>
-<p class="Study Subjects">Subjects of study At the iSchool, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of information studies. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority: Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.) Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.) HTML and CSS constructs for representing musical scores. So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.</p>
-<p class="Exotic Dances">Animals of the Extended Perambulation Yes, you are right! As part of my post-doctorate work, I did study animals. To answer your question, my favourite creatures are as follows, with definitions: The Canadian Polar bear A large predator, very hungry these days. Feeds almost entirely on seal. The elk An elk is a horned ungulate found primarily in the mountainous regions of British Columbia. It can be seen from railways, and also frequently visits the Banff centre for the arts. The red-tailed hawk An interesting example of historic misinformation: many people believe eagles make the screaming noise associated with them on film. This cry is instead the call of the red-tail. For more of my research, see my research page. Yours sincerely, Dr Terra Nova UMD motto: "Fear the Turtle" -- How did this happen, anyway.</p>
-</body>
-</html>
+        USA<br>
+        <strong><a href="tel:+123-456-7890">123-456-7890</a></strong><br>
+        <strong><a href="mailto:no_reply@example.com">Email: no_reply@example.com</a></strong>
+        </p>
+    </address>
+
+    <p>
+        <time datetime= "2020-01-18">18 January 2020</time> 
+    </p>
+
+    <address>
+        <p>
+        <strong>Rev. Dover Cliff</strong> <br>
+        1861 Roses Way Glasgow, <br>
+        CT9 XXX <br>
+        UK<br>
+        </p>
+    </address>
+      
+    <h1 class="re">RE: Dover Cliff university application</h1>
+    <p> Dear Dover,</p>
+    <p> Thank you for your recent application to join us at UMD's iSchool to study for your undergraduate in 2020. I will answer your questions one by one, in the following sections.</p>
+    
+    <h2> Starting Dates</h2>
+    <p>We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:</p>
+    <ul>
+        <li><time datetime= "2019-07-29">First Semester: 29 August 2019</time></li>
+        <li><time datetime= "2020-01-22">Second Semester: 22 January 2020</time></li>
+        <li><time datetime= "2020-05-02">Third Semester: 02 May 2020</time></li>
+    </ul>
+    <p> Please let me know if this is ok, and if so which start date you would prefer.<br>
+        You can find more information about <a href="#">important university dates</a> on our website.
+    </p>
+    
+    <h2>Subjects of Study</h2>
+    <p>At the iSchool, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of information studies. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:</p>
+    <ol>
+            <li>Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.)</li>
+            <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.)</li>
+            <li><abbr>HTML</abbr> and <abbr>CSS</abbr> constructs for representing musical scores.</li>
+    </ol>
+    <p> So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think we'd need to know? Thanks. </p>
+
+    <h2>Exotic DanceAnimals of the Extended Perambulation</h2>
+    <p> Yes, you are right! As part of my post-doctorate work, I did study animals. To answer your question, my favourite creatures are as follows, with definitions:</p>
+    <p>The Canadian Polar bear<br>
+        A large predator, very hungry these days. Feeds almost entirely on seal.</p>
+    <p>The elk<br>
+        An elk is a horned ungulate found primarily in the mountainous regions of British Columbia. It can be seen from railways, and also frequently visits the Banff centre for the arts.</p>
+    <p>The red-tailed hawk<br>
+        An interesting example of historic misinformation: many people believe eagles make the screaming noise associated with them on film. This cry is instead the call of the red-tail.</p>
+
+    <p></p>
+    <p class="reccom">For more of my research, <a href="#">see my research page.</a></p>
+
+    <p class="closing"> Yours sincerely,<br>
+    Dr Terra Nova<br>
+    UMD motto: "Fear the Turtle"<br>
+    -- How did this happen, anyway.
+    </p>
+    </body>
+    </html>
