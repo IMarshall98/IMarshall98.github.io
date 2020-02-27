@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    width=800px;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    background-color:#806F73;
+    flex-wrap: wrap;
+    justify-content: center;
+    .header{
+        background-color:#BFA6AC;
+    }
+
+    .content
+        flex-direction: row;
+}
