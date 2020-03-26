@@ -18,7 +18,5 @@ btn.onclick = function(){
     Info
 };
 
-countries.forEach(function(value, key) {
-    console.log(key,value)
-})
+
     
