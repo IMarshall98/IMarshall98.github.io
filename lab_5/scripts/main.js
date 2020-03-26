@@ -1,8 +1,24 @@
 const myHeading = document.querySelector('.header');
 myHeading.textContent = "Imari's List of Countries";
 
-var ordli = document.createElement("list");
-ordli.innerText = <ol>
-    <li>hi</li>
-</ol>;
-document.body.appendChild(ordli);
+const cont = document.querySelector('.content');
+const btn = document.querySelector('button');
+
+element.classList.add("countries");
+
+var list = document.querySelector('.countries');
+list.innerText=<ol></ol>;
+document.body.appendChild(list);
+
+function name(putIn) {
+    return whatitreturns
+};
+
+btn.onclick = function(){
+    Info
+};
+
+countries.forEach(function(value, key) {
+    console.log(key,value)
+})
+    

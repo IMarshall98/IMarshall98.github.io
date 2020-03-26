@@ -1,2 +1,0 @@
-const myHeader = document.querySelector(".header");
-myHeader.innerHTML = "Imari's Lab 4!";
