@@ -1,15 +1,12 @@
-form {
-
-}
-
-label {
-
-}
-
-input, textarea {
-    
-}
-
-ul {
-
-}
+body{
+    display: flex;
+    justify-content: center;
+    background-color:	#C0C0C0;
+    }
+    h1{
+    font-weight: bold;
+    font-size: 2em;  
+    }
+    form{
+    font-size: 1.2em;
+    }

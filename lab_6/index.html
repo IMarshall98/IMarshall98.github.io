@@ -2,13 +2,31 @@
 <html lang="en">
   <head>
     <title>Forms Lab</title>
+    <link href="form_styles.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
     <div class="wrapper">
       <div class="container">
         <div>
-          <h1>HTML 1 Forms Lab</h1>
+          <h1>HTML Forms Lab</h1>
         </div>
+        <form action="https://nameless-thicket-21836.herokuapp.com/lab" method="POST">
+          <ol>
+            <li>
+              <label for="user_name">Name:</label><br/>
+              <input type="text" id="user_name" name="user_name" value="Enter Name" maxlength="140"/>
+            </li>
+            <li>
+              <label for="user_int">Interests:</label><br/>
+              <textarea id="user_int" name="user_int" rows="5" cols="33" >Enter Interests
+              </textarea>
+            </li>
+            <!--Learned how to set value in text area through W3Schools-->
+         </ol>
+         <input type="submit" value="Submit Form">
+         <!--Response message: Success! You posted a form to the lab server.-->
+        </form>
       </div>
     </div>
   </body>
