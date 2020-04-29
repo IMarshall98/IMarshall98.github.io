@@ -15,8 +15,19 @@ const dbSettings = {
   driver: sqlite3.Database,
 };
 
+const text = document.createElement('p')
+var zipCode = document.createTextNode('zipCode'); 
+text.appendChild(zipCode);  
+
+
 const app = express();
 const port = process.env.PORT || 3000;
+
+const db = new sqlite3.Database(':memory:', (err) => {
+  if(err){
+    return console.error('err.message');
+  }
+});
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -45,6 +56,7 @@ function processDataForFrontEnd(req, res) {
 //
 app
   .route("/api")
+    .put(req,res)
   .get((req, res) => {
     // processDataForFrontEnd(req, res)
     (async () => {
@@ -63,7 +75,7 @@ app
       writeUser(req.body.name, dbSettings)
       .then((result) => {
         console.log(result);
-        res.send("your request was successful"); // simple mode
+        res.send("Success!"); // simple mode
       })
       .catch((err) => {
         console.log(err);
